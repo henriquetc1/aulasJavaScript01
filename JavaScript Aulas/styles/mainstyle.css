@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+form, input, button, label, textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+form {
+    background-color: #77FF77;
+    border: #77FF77 6px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    height: 10em;
+    gap: 1em;
+}
+
+form > input, button {
+    border: none;
+    width: 20em;
+    height: 3em;
+}
+
+button {
+    cursor: pointer;
+    transition: .2s;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+.resultBox {
+    
+    border: #77FF77 6px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    height: 10em;
+    margin-top: 1em;
+    border-radius: 20px;
+}
+
+#answer {
+    border: #303030 1px solid;
+    width: 15em;
+    height: 2em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
